@@ -1,0 +1,37 @@
+main{
+    background: #f2f3f5;
+}
+body{
+    color: #4D5574;
+}
+ul li {
+    line-height: 30px;
+}
+#btn-card-1{
+    border: none;
+    color: white;
+}
+.bank{
+    background: #F3F3F9;
+    padding: 25px 10px;
+}
+nav a{
+    font-size: 15px;
+}
+.title{
+    color: #2D2A6E;
+    font-weight: bold;
+    font-size: 15px;
+}
+p{
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .none {
+        display: none;
+    }
+    .w-sm-100{
+        width: 100%;
+    }
+}

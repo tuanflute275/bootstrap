@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-css {
+    width: 375px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px  #333;
+}
+body {
+    color: #333;
+    background-color:#f0eef0;
+    font-family: "Open Sans", sans-serif;
+}
+main {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account {
+    display: flex;
+    justify-content: center ;
+    font-size: 16px;
+    padding: 40px 0;
+}
+
+.container-css h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.form-group-css {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    position: relative;
+}
+.form-group-css span{
+    position: absolute;
+    border-top: 4px solid #1ac7b6;
+    left: 0;
+    top: 67px;
+    bottom: 0;
+    width: 0%;
+    transition: 0.3s;
+}
+.form-group-css input:focus ~ span{
+    width: 100%;
+}
+.form-group-css.error small {
+    color: #b12121;
+}
+
+.form-group-css.error input{
+    border-bottom: 3px solid #e41b1b;
+}
+.form-group-css input::placeholder{
+    font-size: 15px;
+}
+.container-css label {
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.form-control-css {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 16px;
+}
+.form-control-css:hover {
+    border: 1px solid #1ac7b6;
+}
+button[type="submit"] {
+    outline: none;
+    border: none;
+    font-size: 22px;
+    padding: 10px 20px;
+    width: 89%;
+    margin-top: 20px;
+    margin-left: 21px;
+
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #1ac7b6;
+} 
+button[type="submit"]:hover {
+    background-color: #1ac7b6;
+    opacity: 0.9;
+}
+
+

@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ORFARM-Multipurpose</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../lib/bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/icon/font-awesome/css/all.min.css">
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/yourcart.css">
+    <link rel="stylesheet" href="../css/search.css">
+</head>
+
+<body>
+    <div id="preloder">
+        <div class="loader">
+        </div>
+    </div>
+    <a id="scroll_top">
+        <i class="fas fa-arrow-circle-up fixed-bottom icon__to__top "></i>
+    </a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a href="index.html"><img src="../img/logo.jpg" alt="" style="margin-right: 100px;padding: 20px;"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="link mt-3 mb-3" style="margin-right: 20px;">
+                    <a href=""><i class="fas fa-search mr-3 p-2 bg-info icon-search"></i></a>
+                    <a href="singin.html"><i class="fas fa-user p-2 mr-3 bg-warning"></i></a>
+                    <a href="heart.html"><i class="fas fa-heart p-2 mr-3 bg-danger"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping p-2 mr-3 bg-success card-icon"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- your card -->
+        <div class="modal-card hide">
+            <div class="modal-inner__card">
+                <div class="modal-header bg-light align-items-center justify-content-between">
+                    <h6 class="text-uppercase title">Your cart</h6>
+                    <i class="fas fa-close close-icon"></i>
+                </div>
+                <div class="modal__body">
+                    <div class=" card pt-2">
+                        <div class="row">
+                            <span class="badge badge-white position-absolute ml-4">
+                                <i class="fa fa-close"></i>
+                            </span>
+                            <img class="card-img-top w-25 ml-4" src="../img/product-1.jpg" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">Stacy's Pita Chips Parmesan Garlic </h6>
+                                <p class="card-text">1x <span class="text-success">$162.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card pt-2">
+                        <div class="row">
+                            <span class="badge badge-white position-absolute ml-4">
+                                <i class="fa fa-close"></i>
+                            </span>
+                            <img class="card-img-top w-25 ml-4" src="../img/product-2.jpg" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">Stacy's Pita Chips Parmesan Garlic </h6>
+                                <p class="card-text">1x <span class="text-success">$162.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card pt-2">
+                        <div class="row">
+                            <span class="badge badge-white position-absolute ml-4">
+                                <i class="fa fa-close"></i>
+                            </span>
+                            <img class="card-img-top w-25 ml-4" src="../img/product-3.jpg" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">Stacy's Pita Chips Parmesan Garlic </h6>
+                                <p class="card-text">1x <span class="text-success">$162.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__footer">
+                    <div class="form-group mt-5 border-top pt-5">
+                        <label for="" class=" row justify-content-around">
+                            <h6>SUBTOTAL:</h6>
+                            <h5 class="font-weight-bold">$300.00</h5>
+                        </label>
+                        <div class="form-btn row justify-content-around align-items-center flex-column ">
+                            <a name="" id="" class="btn btn-success btn-3 w-75 mb-2" href="cart.html" role="button">View
+                                Cart</a>
+                            <a name="" id="" class="btn btn-success btn-3 w-75" href="cart.html" role="button">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- search -->
+        <div class="modal hide">
+            <div class="modal__inner">
+                <div class="modal__body">
+                    <i class="fas fa-close icon-close"></i>
+                    <h4 style="color: #4D5574; margin-bottom: 30px;">WHAT ARE YOU LOOKING FOR?</h4>
+                    <div class="form-group search text-up">
+                        <input type="text" class="inp__search" placeholder="search product">
+                        <i class="fa fa-search pr-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <nav aria-label="breadcrumb" class="border-top">
+                <ol class="breadcrumb bg-white">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+                <div class="title text-center mb-5 ">
+                    <h4 style="color: #2D2A6E; font-size: 30px;">Looking For Orfarm?</h4>
+                    <span>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</span>
+                </div>
+            </nav>
+            <div class="row my-3">
+                <div class="col-md-4">
+                    <div class="card text-left border-0">
+                        <img class="card-img-top" src="../img/contact-1.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-title">RUE PELLEPORT - PARIS</h6>
+                            <p class="card-text">Add: Heaven Stress, Beverly Melbourne
+                                Phone: (+100) 123 456 7890
+                                Email: Orfarm@google.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-left border-0">
+                        <img class="card-img-top" src="../img/contact-2.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-title">RUE PELLEPORT - PARIS</h6>
+                            <p class="card-text">Add: Heaven Stress, Beverly Melbourne
+                                Phone: (+100) 123 456 7890
+                                Email: Orfarm@google.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-left border-0">
+                        <img class="card-img-top" src="../img/contact-3.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-title">RUE PELLEPORT - PARIS</h6>
+                            <p class="card-text">Add: Heaven Stress, Beverly Melbourne
+                                Phone: (+100) 123 456 7890
+                                Email: Orfarm@google.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-left border-0">
+                        <img class="card-img-top" src="../img/contact-4.jpg" alt="">
+                        <div class="card-body">
+                            <h6 class="card-title">RUE PELLEPORT - PARIS</h6>
+                            <p class="card-text">Add: Heaven Stress, Beverly Melbourne
+                                Phone: (+100) 123 456 7890
+                                Email: Orfarm@google.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1922.574020034117!2d105.7839860910658!3d21.046758859908927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab3b4220c2bd%3A0x1c9e359e2a4f618c!2sB%C3%A1ch%20Khoa%20Aptech!5e0!3m2!1svi!2s!4v1677142231251!5m2!1svi!2s"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 px-5">
+                    <div class="title my-5">
+                        <h4>LEAVE A REPLY</h4>
+                        <p>Your email address will not be published. Required fields are marked *</p>
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name *">
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb-3">
+                                <input type="text" class="form-control" placeholder="Your Email *">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 mb-3">
+                                <input type="text" class="form-control" placeholder="Subject *">
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb-3">
+                                <input type="text" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="form-group mt-4">
+                            <textarea class="form-control" name="" id="" rows="auto" placeholder="Message"></textarea>
+                        </div>
+                        <a name="" id="" class="btn btn-3 my-4" href="#" role="button">SEND MESSAGE</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer style="background-color: #2D2A6E;padding-top:30px; padding-bottom: 20px;width: 100%;">
+        <div class="container-fluid text-white" style="padding-bottom: 30px;">
+            <div class="row justify-content-between">
+                <div class="col-md-3 col-sm-12">
+                    <p class="font-weight-bold mt-5 text-white">LET US HELP YOU</p>
+                    <span>If you have any question,
+                        <p> please
+                            contact us at: <span style="color: #96AE00;"> support@example.com</span>
+                    </span></p>
+                    <span class="text-capitalize">social media:</span>
+                    <div class="link mt-2">
+                        <a href=""><i class="fa-brands fa-facebook mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-skype mr-2 icon-ft"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="font-weight-bold mt-5 text-white">LOOKING FOR ORFARM?</p>
+                    <span>
+                        68 St. Vicent Place, Glasgow, Greater
+                        Newyork NH2012, UK.</span>
+                    <div class="mt-4">Monday – Friday: 8:10 AM – 6:10 PM
+                        Saturday: 10:10 AM – 06:10 PM
+                        Sunday: Close</div>
+                </div>
+                <div class="col-md-2  hot-categories">
+                    <p class="font-weight-bold mt-5 text-white">HOT CATEGORIES</p>
+                    <ul class="list-unstyled">
+                        <li><a class="text-ft-a" href="">Fruit Vegetables</a></li>
+                        <li><a class="text-ft-a" href="">Dairy Products</a></li>
+                        <li><a class="text-ft-a" href="">Package Foods</a></li>
+                        <li><a class="text-ft-a" href="">Beverage</a></li>
+                        <li><a class="text-ft-a" href="">Health & Wellness</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="font-weight-bold mt-5 text-white">OUR NEWSLETTER</p>
+                    <span class="ml-">Subscribe to the Orfarm mailing list to receive updates on new arrivals & other
+                        information.</span>
+                    <div class="form-group d-flex mt-4">
+                        <input type="text" class="inp-ft w-75" placeholder="your email address">
+                        <a href="" class="btn btn-outline-success btn-ft text-decoration-none text-white"
+                            type="button">SUBMIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border-top pt-2 px-5">
+            <div class="row justify-content-between align-items-center">
+                <p>Copyright © <a href="" style="color: #96AE00;"> ORFARM</a> all rights reserved. Powered by <a href=""
+                        style="color: #96AE00;">ThemePure.</a> </p>
+                <img class="" src="../img/footer.jpg" alt="">
+            </div>
+        </div>
+        <footer style="background-color: #2D2A6E;padding-top:30px; padding-bottom: 20px;width: 100%;">
+            <div class="container-fluid text-white" style="padding-bottom: 30px;">
+                <div class="row justify-content-between">
+                    <div class="col-md-3 col-sm-12">
+                        <p class="font-weight-bold mt-5 text-white">LET US HELP YOU</p>
+                        <span>If you have any question,
+                            <p> please
+                                contact us at: <span style="color: #96AE00;"> support@example.com</span>
+                        </span></p>
+                        <span class="text-capitalize">social media:</span>
+                        <div class="link mt-2">
+                            <a href=""><i class="fa-brands fa-facebook mr-2 icon-ft"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter mr-2 icon-ft"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube mr-2 icon-ft"></i></a>
+                            <a href=""><i class="fa-brands fa-pinterest mr-2 icon-ft"></i></a>
+                            <a href=""><i class="fa-brands fa-skype mr-2 icon-ft"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <p class="font-weight-bold mt-5 text-white">LOOKING FOR ORFARM?</p>
+                        <span>
+                            68 St. Vicent Place, Glasgow, Greater
+                            Newyork NH2012, UK.</span>
+                        <div class="mt-4">Monday – Friday: 8:10 AM – 6:10 PM
+                            Saturday: 10:10 AM – 06:10 PM
+                            Sunday: Close</div>
+                    </div>
+                    <div class="col-md-2  hot-categories">
+                        <p class="font-weight-bold mt-5 text-white">HOT CATEGORIES</p>
+                        <ul class="list-unstyled">
+                            <li><a class="text-ft-a" href="">Fruit Vegetables</a></li>
+                            <li><a class="text-ft-a" href="">Dairy Products</a></li>
+                            <li><a class="text-ft-a" href="">Package Foods</a></li>
+                            <li><a class="text-ft-a" href="">Beverage</a></li>
+                            <li><a class="text-ft-a" href="">Health & Wellness</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <p class="font-weight-bold mt-5 text-white">OUR NEWSLETTER</p>
+                        <span class="ml-">Subscribe to the Orfarm mailing list to receive updates on new arrivals &
+                            other
+                            information.</span>
+                        <div class="form-group d-flex mt-4">
+                            <input type="text" class="inp-ft w-75" placeholder="your email address">
+                            <a href="" class="btn btn-outline-success btn-ft text-decoration-none text-white"
+                                type="button">SUBMIT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid border-top pt-2 px-5">
+                <div class="row justify-content-between align-items-center">
+                    <p>Copyright © <a href="" style="color: #96AE00;"> ORFARM</a> all rights reserved. Powered by <a
+                            href="" style="color: #96AE00;">ThemePure.</a> </p>
+                    <img class="" src="../img/footer.jpg" alt="">
+                </div>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="../lib/jquery-3.6.3.min.js"></script>
+        <script src="../lib/popper.min.js"></script>
+        <script src="../lib/bootstrap-4/js/bootstrap.min.js"></script>
+        <script src="../js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+
+p{
+    color: #4D5574;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+.img-main{
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.img-cmt{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.comment{
+    margin: 60px 0;
+}
+.leave-reply{
+    color: #96AE00;
+    font-size: 15px;
+}
+.leave-reply:hover{
+    color: #4D5574;
+    text-decoration: none;
+}

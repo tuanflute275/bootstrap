@@ -1,0 +1,1622 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ORFARM-Multipurpose</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- owl carosel -->
+    <link rel="stylesheet" href="../lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../lib/bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/icon/font-awesome/css/all.min.css">
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/yourcart.css">
+    <link rel="stylesheet" href="../css/search.css">
+    <!-- <link rel="stylesheet" href="../lib/matthieua-WOW-07a2b50/css/libs/animate.css"> -->
+</head>
+
+<body>
+    <div id="preloder">
+        <div class="loader">
+        </div>
+    </div>
+    <a id="scroll_top">
+        <i class="fas fa-arrow-circle-up fixed-bottom icon__to__top "></i>
+    </a>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a href="index.html"><img src="../img/logo.jpg" alt="" style="margin-right: 100px;padding: 20px;"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listproduct.html">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="link mt-3 mb-3" style="margin-right: 20px;">
+                    <a href=""><i class="fas fa-search mr-3 p-2 bg-info icon-search"></i></a>
+                    <a href="singin.html"><i class="fas fa-user p-2 mr-3 bg-warning"></i></a>
+                    <a href="heart.html"><i class="fas fa-heart p-2 mr-3 bg-danger"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping p-2 mr-3 bg-success card-icon"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- your card -->
+        <div class="modal-card hide">
+            <div class="modal-inner__card">
+                <div class="modal-header bg-light align-items-center justify-content-between">
+                    <h6 class="text-uppercase title">Your cart</h6>
+                    <i class="fas fa-close close-icon"></i>
+                </div>
+                <div class="modal__body">
+                    <div class=" card pt-2">
+                        <div class="row">
+                            <span class="badge badge-white position-absolute ml-4">
+                                <i class="fa fa-close"></i>
+                            </span>
+                            <img class="card-img-top w-25 ml-4" src="../img/product-1.jpg" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">Stacy's Pita Chips Parmesan Garlic </h6>
+                                <p class="card-text">1x <span class="text-success">$162.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card pt-2">
+                        <div class="row">
+                            <span class="badge badge-white position-absolute ml-4">
+                                <i class="fa fa-close"></i>
+                            </span>
+                            <img class="card-img-top w-25 ml-4" src="../img/product-2.jpg" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">Stacy's Pita Chips Parmesan Garlic </h6>
+                                <p class="card-text">1x <span class="text-success">$162.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" card pt-2">
+                        <div class="row">
+                            <span class="badge badge-white position-absolute ml-4">
+                                <i class="fa fa-close"></i>
+                            </span>
+                            <img class="card-img-top w-25 ml-4" src="../img/product-3.jpg" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">Stacy's Pita Chips Parmesan Garlic </h6>
+                                <p class="card-text">1x <span class="text-success">$162.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__footer">
+                    <div class="form-group mt-5 border-top pt-5">
+                        <label for="" class=" row justify-content-around">
+                            <h6>SUBTOTAL:</h6>
+                            <h5 class="font-weight-bold">$300.00</h5>
+                        </label>
+                        <div class="form-btn row justify-content-around align-items-center flex-column ">
+                            <a name="" id="" class="btn btn-success btn-3 w-75 mb-2" href="cart.html" role="button">View
+                                Cart</a>
+                            <a name="" id="" class="btn btn-success btn-3 w-75" href="cart.html" role="button">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- search -->
+        <div class="modal hide">
+            <div class="modal__inner">
+                <div class="modal__body">
+                    <i class="fas fa-close icon-close"></i>
+                    <h4 style="color: #4D5574; margin-bottom: 30px;">WHAT ARE YOU LOOKING FOR?</h4>
+                    <div class="form-group search text-up">
+                        <input type="text" class="inp__search" placeholder="search product">
+                        <i class="fa fa-search pr-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- carousel pc -->
+        <div class="pc wow fadeInDown">
+            <div class="container-fluid">
+                <div id="carouselId" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselId" data-slide-to="1"></li>
+                        <li data-target="#carouselId" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="banner bg-info">
+                                <img class="w-100 h-100" src="../img/banner-16.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block text-left"
+                                    style="top: 100px;margin-left: 500px;">
+                                    <p style="font-size: 25px; color: #de5c16;" class="mb-4 wow bounceInRight"
+                                        data-wow-delay="0.3s">Top seller in the week</p>
+                                    <h3 class="text-uppercase font-weight-bolder mb-4 wow bounceInRight"
+                                        data-wow-delay="0.5s" style="color: #2D2A6E; font-size: 45px;">
+                                        the best health fresh</h3>
+                                    <p class="wow bounceInRight" data-wow-delay="0.7s">presentation matters. our fresh
+                                        vietnamese vegetable rolls look gook and taste even
+                                        better</p>
+                                    <a name="" id="" class="btn btn-3 mt-4 wow bounceInRight" data-wow-delay="0.9s"
+                                        href="listproduct.html" role="button">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="banner bg-info">
+                                <img class="w-100 h-100" src="../img/banner-16.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block text-left"
+                                    style="top: 100px;margin-left: 500px;">
+                                    <p style="font-size: 25px; color: #de5c16;" class="mb-4 wow bounceInRight"
+                                        data-wow-delay="0.3s">Top seller in the week</p>
+                                    <h3 class="text-uppercase font-weight-bolder mb-4 wow bounceInRight"
+                                        data-wow-delay="0.5s" style="color: #2D2A6E; font-size: 45px;">
+                                        the best health fresh</h3>
+                                    <p class="wow bounceInRight" data-wow-delay="0.7s">presentation matters. our fresh
+                                        vietnamese vegetable rolls look gook and taste even
+                                        better</p>
+                                    <a name="" id="" class="btn btn-3 mt-4 wow bounceInRight" data-wow-delay="0.9s"
+                                        href="listproduct.html" role="button">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 150px;">
+            <div class="row justify-content-center wow bounceInUp">
+                <img src="../img/about-img-1.jpg" alt="">
+            </div>
+            <p class="text-center mt-4 mb-5 wow bounceInUp" style="max-width: 450px; margin: auto;">We are Online Market
+                of fresh
+                fruits &
+                vegetables.
+                You can also find organic & healthy juice, processed food as
+                well as gentle skin tcare at our store.</p>
+            <div class="row align-items-center">
+                <div class="col-md-4 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="card text-left border-0">
+                        <img class="card-img-top w-25 m-auto" src="../img/about-hd-1.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Select Your Products</h4>
+                            <p class="card-text text-center px-5">Choose from select produce to start.
+                                Keep, add, or remove items. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow bounceInUp" data-wow-delay="0.7s">
+                    <div class="card text-left border-0">
+                        <img class="card-img-top w-25 m-auto" src="../img/about-hd-2.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Select Your Products</h4>
+                            <p class="card-text text-center px-5">Choose from select produce to start.
+                                Keep, add, or remove items. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow bounceInUp" data-wow-delay="0.9s">
+                    <div class="card text-left border-0">
+                        <img class="card-img-top w-25 m-auto" src="../img/about-hd-3.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Select Your Products</h4>
+                            <p class="card-text text-center px-5">Choose from select produce to start.
+                                Keep, add, or remove items. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 100px;margin-bottom: 100px">
+            <div class="title text-center mb-4 wow bounceInUp" data-wow-delay="0.3s">
+                <p style="color: #96AE00;">~ Special Products ~</p>
+                <h4 style="color: #2D2A6E; font-size: 30px;">Weekly Food Offers</h4>
+            </div>
+            <nav class="wow bounceInRight" data-wow-delay="0.5s">
+                <div class="nav nav-tabs justify-content-center border-0 text-special-hover font-weight-bold mb-3"
+                    id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link  border-0" style="color: #96AE00;" id="nav-home-tab" data-toggle="tab"
+                        href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All
+                        Product</a>
+                    <a class="nav-item nav-link border-0 text-special" id="nav-profile-tab" data-toggle="tab"
+                        href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Fresh Meat</a>
+                    <a class="nav-item nav-link border-0 text-special" id="nav-contact-tab" data-toggle="tab"
+                        href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Fresh
+                        vegetable</a>
+                    <a class="nav-item nav-link border-0 text-special" id="nav-contact-tab-1" data-toggle="tab"
+                        href="#nav-contact-1" role="tab" aria-controls="nav-contact-1" aria-selected="false">Biscuits
+                        Snack</a>
+                </div>
+                <div class="time text-right mr-4 my-3">
+                    <span class="text-right mr-2">Sale còn <span class="day"></span> ngày</span>
+                    <span class="hour p-2 bg-warning text-white"></span>
+                    <span>:</span>
+                    <span class="minute p-2 bg-warning text-white"></span>
+                    <span>:</span>
+                    <span class="second p-2 bg-warning text-white"></span>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <!-- all product -->
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row wow bounceInUp" data-wow-delay="0.7s">
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Soda Sparkling Water Maker (Rose Gold)</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$10.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-3.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Ginger Fresh, Whole, Organic - 250ml</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$10.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-4.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Mangosteen Organic From VietNamese</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$10.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Soda Sparkling Water Maker (Rose Gold)</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$300.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-80%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-2.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Mangosteen Organic From VietNamese</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-40%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Pure Irish Organic Beer Quarter Burgers</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fresh vegetable -->
+                    <div class="row wow bounceInUp" data-wow-delay="0.8s">
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-40%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-1.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Soda Sparkling Water Maker (Rose Gold)</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$300.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-2.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Lettuce Fresh Fruit Produce Vegetable</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-20%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-3.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Pure Irish Organic Beer Quarter Burgers</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$90.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-4.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Ginger Fresh, Whole, Organic - 250ml</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$120.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Laffy Taffy Bites Gone Bananas - 4 Packs</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-90%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-6.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Mangosteen Organic From VietNamese</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$90.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fresh meat -->
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row">
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Soda Sparkling Water Maker (Rose Gold)</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$90.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.3s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-3.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Ginger Fresh, Whole, Organic - 250ml</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.4s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-4.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Mangosteen Organic From VietNamese</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$250.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.5s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Soda Sparkling Water Maker (Rose Gold)</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$250.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.7s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-80%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-2.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Mangosteen Organic From VietNamese</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.8s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-40%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/product-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Pure Irish Organic Beer Quarter Burgers</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$250.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fresh vegetable -->
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="row">
+                        <div class="col-md-2 mt-3 wow fadeInRight" data-wow-delay="0.2s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-40%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-1.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Soda Sparkling Water Maker (Rose Gold)</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$250.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-2.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Lettuce Fresh Fruit Produce Vegetable</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$250.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInRight" data-wow-delay="0.4s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-20%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-3.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Pure Irish Organic Beer Quarter Burgers</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInRight" data-wow-delay="0.5s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-4.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Ginger Fresh, Whole, Organic - 250ml</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$90.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInRight" data-wow-delay="0.6s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/fresh-vegetable-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Laffy Taffy Bites Gone Bananas - 4 Packs</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$90.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInRight" data-wow-delay="0.7s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-90%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-6.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Mangosteen Organic From VietNamese</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- biscuits Snack -->
+                <div class="tab-pane fade" id="nav-contact-1" role="tabpanel" aria-labelledby="nav-contact-tab-1">
+                    <div class="row">
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-10%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-1.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Lettuce Fresh Fruit Produce Vegetable</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$90.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.3s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-90%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-2.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Pure Irish Organic Beer Quarter Burgers</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$350.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.4s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-3.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Ginger Fresh, Whole, Organic - 250ml</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.5s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-40%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-4.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Laffy Taffy Bites Gone Bananas - 4 Packs</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$270.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.6s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-70%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-5.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Laffy Taffy Bites Gone Bananas - 4 Packs</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-text text-danger font-weight-bold mb-3 ml-3 ">$56.00</h5>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3 wow fadeInLeft" data-wow-delay="0.7s">
+                            <div class="card-product text-left">
+                                <div class="add row justify-content-around">
+                                    <a href="heart.html"><i class="fa fa-heart"></i></a>
+                                    <a href=""><i class="fa fa-share"></i></a>
+                                    <a href=""><i class="fa fa-eye"></i></a>
+                                </div>
+                                <div class="sell">
+                                    <span class="badge badge-info position-absolute ml-3 mt-3  py-2 px-3">-50%</span>
+                                    <span class="badge badge-danger position-absolute mt-3 py-2 px-3"
+                                        style="margin-left: 80px;">HOT</span>
+                                </div>
+                                <img class="card-img-top" src="../img/biscuits-snack-6.jpg" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title ml-3">Mangosteen Organic From VietNamese</h6>
+                                    <div class="star text-left mb-2 ml-3 text-warning">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="mb-2">
+                                        <span
+                                            class="card-text text-danger font-weight-bold ml-3 mr-2 coin">$56.00</span>
+                                        <span style="text-decoration: line-through;">$90.00</span>
+                                    </div>
+                                    <a name="" id="" class="btn btn-outline-success w-100 m-auto btn-4 btn-product"
+                                        href="heart.html" role="button">ADD TO CARD</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="text-center mt-5">Discover thousands of other quality product.<a
+                        class="see-all text-decoration-none  text-hover-a" href="listproduct.html">Shop All Product
+                        >></a></h5>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 100px;margin-bottom: 100px">
+            <div class="title text-center mb-5 wow bounceInUp" data-wow-delay="0.3s">
+                <p style="color: #96AE00;">~ Why choose us? ~</p>
+                <h4 style="color: #2D2A6E; font-size: 30px;">What makes us different</h4>
+                <span>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</span>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-left pt-5 mt-4  wow rollIn" data-wow-delay="0.5s">
+                        <img class="card-img-top w-25 m-auto"
+                            src="https://weblearnbd.net/tphtml/orfarm/assets/img/icon/choose-icon1.svg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">100% Fresh Food</h4>
+                            <p class="card-text text-center">Adjust global theme options and see design changes in
+                                real-time.</p>
+
+                            <p class="text-center font-weight-bold"><a href="lifeStyle.html"
+                                    class="text-decoration-none learn-more">Learn More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 wow rollIn " data-wow-delay="0.7s">
+                    <div class="card text-left pt-5 mt-4">
+                        <img class="card-img-top w-25 m-auto"
+                            src="https://weblearnbd.net/tphtml/orfarm/assets/img/icon/choose-icon2.svg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">100% Fresh Food</h4>
+                            <p class="card-text text-center">Adjust global theme options and see design changes in
+                                real-time.</p>
+
+                            <p class="text-center font-weight-bold"><a href="lifeStyle.html"
+                                    class="text-decoration-none learn-more">Learn More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 wow rollIn" data-wow-delay="0.8s">
+                    <div class="card text-left pt-5 mt-4">
+                        <img class="card-img-top w-25 m-auto"
+                            src="https://weblearnbd.net/tphtml/orfarm/assets/img/icon/choose-icon3.svg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">100% Fresh Food</h4>
+                            <p class="card-text text-center">Adjust global theme options and see design changes in
+                                real-time.</p>
+
+                            <p class="text-center font-weight-bold"><a href="lifeStyle.html"
+                                    class="text-decoration-none learn-more">Learn More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 wow rollIn" data-wow-delay="0.9s">
+                    <div class="card text-left pt-5 mt-4">
+                        <img class="card-img-top w-25 m-auto"
+                            src="https://weblearnbd.net/tphtml/orfarm/assets/img/icon/choose-icon4.svg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">100% Fresh Food</h4>
+                            <p class="card-text text-center">Adjust global theme options and see design changes in
+                                real-time.</p>
+
+                            <p class="text-center font-weight-bold"><a href="lifeStyle.html"
+                                    class="text-decoration-none learn-more">Learn More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin: 80px 0;">
+            <div class="title text-center mb-5 wow slideInDown" data-wow-delay="0.2s">
+                <p style="color: #96AE00;">~ Best Products ~</p>
+                <h4 style="color: #2D2A6E; font-size: 30px;">This week’s highlights</h4>
+                <span>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</span>
+            </div>
+            <div class="container-fluid wow bounceInUp" data-wow-delay="0.4s">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-1.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">Lettuce Fresh
+                                    Produce
+                                    Vegetables</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-2.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">
+                                    Cheap and delicious fresh chicken</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-3.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">Fresh Milk
+                                    Chocolate
+                                    Quaker Popped</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid wow bounceInUp" data-wow-delay="0.6s">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-4.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">1kg purple
+                                    onion/ onion/
+                                    dried onion</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-5.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">1st Quality
+                                    Fresh Meat
+                                    From USA 500g</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-6.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">Lettuce Fresh
+                                    Produce
+                                    Vegetables</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid wow bounceInUp" data-wow-delay="0.8s">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-7.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">Lettuce Fresh
+                                    Produce
+                                    Vegetables</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-8.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">Lettuce Fresh
+                                    Produce
+                                    Vegetables</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="d-flex border">
+                            <img class="w-25" src="../img/best-product-9.jpg" alt="">
+                            <div class="card-body">
+                                <a href="cart.html" class="card-title text-decoration-none text-hover-a">Lettuce Fresh
+                                    Produce
+                                    Vegetables</a>
+                                <p class="card-text mt-3"><span class="text-danger font-weight-bold"
+                                        style="font-size: 20px;">$56.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 100px; margin-bottom: 50px;">
+            <div class="title text-center mb-5 wow flipInX" data-wow-delay="0.3s">
+                <p style="color: #96AE00;">~ Special Products ~</p>
+                <h4 style="color: #2D2A6E; font-size: 30px;">Weekly Food Offers</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4 wow fadeInLeft" data-wow-delay="0.5s">
+                    <div class="card text-center border-0">
+                        <img class="card-img-top" src="../img/about-1.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Who We Are</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit, sed do eiusmod tempor labore
+                                et dolore dignissimos cumque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 wow fadeInLeft" data-wow-delay="0.7s">
+                    <div class="card text-center border-0">
+                        <img class="card-img-top" src="../img/about-2.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Our Products</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit, sed do eiusmod tempor labore
+                                et dolore dignissimos cumque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 wow fadeInLeft" data-wow-delay="0.9s">
+                    <div class="card border-0">
+                        <img class="card-img-top" src="../img/about-3.jpg" alt="">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">How We Work</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit, sed do eiusmod tempor labore
+                                et dolore dignissimos cumque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="background: #f2f1f6;padding: 50px 0;">
+            <div class="title text-center mb-5 ">
+                <p style="color: #96AE00;">~ Read Our Blog ~</p>
+                <h4 style="color: #2D2A6E; font-size: 30px;">Our Latest Post</h4>
+                <span>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</span>
+            </div>
+            <div class="owl-carousel owl-theme ">
+                <div class="item">
+                    <div class="card">
+                        <img class="card-img-top " src="../img/blog-bg-1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="cart.html"
+                                class="card-latest font-weight-bold text-decoration-none-decoration-none">Popular
+                                Reasons You Must Drinks Juice Everyday</a>
+                            <p class="card-text">These are the people Who make your life easier. Egestas is tristique
+                                vestibulum...</p>
+                            <a href="lifeStyle.html" class="tx-continue">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img class="card-img-top" src="../img/blog-bg-2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="cart.html" class="card-latest font-weight-bold text-decoration-none">Perfect
+                                Quality Reasonable Price For Your Family
+                            </a>
+                            <p class="card-text">These are the people Who make your life easier. Egestas is tristique
+                                vestibulum...</p>
+                            <a href="lifeStyle.html" class="tx-continue">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img class="card-img-top" src="../img/blog-bg-3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="cart.html" class="card-latest font-weight-bold text-decoration-none">Way To Choose
+                                Fruits Seafoods Good For Pregnancy
+                            </a>
+                            <p class="card-text">These are the people Who make your life easier. Egestas is tristique
+                                vestibulum...</p>
+                            <a href="lifeStyle.html" class="tx-continue">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img class="card-img-top" src="../img/blog-bg-4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="cart.html" class="card-latest font-weight-bold text-decoration-none">Way To Choose
+                                Fruits & Seafoods Good For Pregnancy
+                            </a>
+                            <p class="card-text">These are the people Who make your life easier. Egestas is tristique
+                                vestibulum...</p>
+                            <a href="lifeStyle.html" class="tx-continue">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img class="card-img-top" src="../img/blog-bg-5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="cart.html" class="card-latest font-weight-bold text-decoration-none">The Best Great
+                                Benefit Of Fresh Beer For Women's
+                                Health</a>
+                            <p class="card-text">These are the people Who make your life easier. Egestas is tristique
+                                vestibulum...</p>
+                            <a href="lifeStyle.html" class="tx-continue">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer style="background-color: #2D2A6E;padding-top:30px; padding-bottom: 20px;width: 100%;">
+        <div class="container-fluid text-white" style="padding-bottom: 30px;">
+            <div class="row justify-content-between">
+                <div class="col-md-3 col-sm-12">
+                    <p class="font-weight-bold mt-5 text-white">LET US HELP YOU</p>
+                    <span>If you have any question,
+                        <p> please
+                            contact us at: <span style="color: #96AE00;"> support@example.com</span>
+                    </span></p>
+                    <span class="text-capitalize">social media:</span>
+                    <div class="link mt-2">
+                        <a href=""><i class="fa-brands fa-facebook mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest mr-2 icon-ft"></i></a>
+                        <a href=""><i class="fa-brands fa-skype mr-2 icon-ft"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="font-weight-bold mt-5 text-white">LOOKING FOR ORFARM?</p>
+                    <span>
+                        68 St. Vicent Place, Glasgow, Greater
+                        Newyork NH2012, UK.</span>
+                    <div class="mt-4">Monday – Friday: 8:10 AM – 6:10 PM
+                        Saturday: 10:10 AM – 06:10 PM
+                        Sunday: Close</div>
+                </div>
+                <div class="col-md-2  hot-categories">
+                    <p class="font-weight-bold mt-5 text-white">HOT CATEGORIES</p>
+                    <ul class="list-unstyled">
+                        <li><a class="text-ft-a" href="">Fruit Vegetables</a></li>
+                        <li><a class="text-ft-a" href="">Dairy Products</a></li>
+                        <li><a class="text-ft-a" href="">Package Foods</a></li>
+                        <li><a class="text-ft-a" href="">Beverage</a></li>
+                        <li><a class="text-ft-a" href="">Health & Wellness</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p class="font-weight-bold mt-5 text-white">OUR NEWSLETTER</p>
+                    <span class="ml-">Subscribe to the Orfarm mailing list to receive updates on new arrivals & other
+                        information.</span>
+                    <div class="form-group d-flex mt-4">
+                        <input type="text" class="inp-ft w-75" placeholder="your email address">
+                        <a href="" class="btn btn-outline-success btn-ft text-decoration-none text-white"
+                            type="button">SUBMIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid border-top pt-2 px-5">
+            <div class="row justify-content-between align-items-center">
+                <p>Copyright © <a href="" style="color: #96AE00;"> ORFARM</a> all rights reserved. Powered by <a href=""
+                        style="color: #96AE00;">ThemePure.</a> </p>
+                <img class="" src="../img/footer.jpg" alt="">
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../lib/jquery-3.6.3.min.js"></script>
+    <script src="../lib/popper.min.js"></script>
+    <script src="../lib/bootstrap-4/js/bootstrap.min.js"></script>
+    <script src="../lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="../lib/matthieua-WOW-07a2b50/dist/wow.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/countdown.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            dots: false,
+            autoplayTimeout: 1500,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+
+</body>
+
+</html>
